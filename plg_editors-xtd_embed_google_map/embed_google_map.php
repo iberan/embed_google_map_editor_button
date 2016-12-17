@@ -131,7 +131,6 @@ if ($plugin)
         $button->class = 'btn';
         $button->onclick = 'showInsertMapForm(\'' . $name . '\');return false;';
         $button->text = JText::_('PLG_EDITORS-XTD_EMBED_GOOGLE_MAP_BUTTON');
-        //$button->name = 'search'; // icoMoon (circle)
         $button->set('name', 'googleMapEditorButton');
 	$button->options = "{handler: 'iframe', size: {x: 400, y: 550}}";
         $button->link = '#';
