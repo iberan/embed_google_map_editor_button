@@ -1,0 +1,33 @@
+#insertDefinitionForm .radio-btn input {
+  margin:0 5px 0 0 !important;
+}
+
+#insertDefinitionForm button.done {
+ margin:0 10px 0 0;
+}
+
+.txt {
+    width: 90%;
+}
+
+.num {
+    width: 50px;
+}
+/* default: 400x250 */
+/*
+#sbox-window {
+	width: 400px !important;
+	height: 550px !important;
+}
+*/
+.note {
+    font-size: 0.8rem;
+}
+.icon-googleMapEditorButton {
+	background: url(globe-icon.png) 0 0 no-repeat;
+	height: 16px !important;
+	width: 16px !important;
+	line-height: 16px !important;
+	position: relative;
+	top: 3px;
+}
